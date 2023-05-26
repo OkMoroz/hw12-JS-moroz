@@ -1,0 +1,70 @@
+body {
+  background-color: #dfdfd0;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(227, 42, 67);
+  gap: 15px;
+  margin: 50px auto 30px;
+  text-align: center;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(20, 57, 97);
+  gap: 15px;
+  margin: 30px auto;
+  text-align: center;
+}
+.slider {
+  width: 760px;
+  height: 460px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.slider-line {
+  display: flex;
+  position: relative;
+  transition: all ease 1.5s;
+}
+.img {
+  width: 750px;
+  height: 450px;
+  border: 3px solid rgb(227, 42, 67);
+  border-radius: 5px 25px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn-prev {
+  border: 3px solid rgb(227, 42, 67);
+  font-size: 17px;
+  padding: 10px 30px;
+  border-radius: 5px 25px;
+  color: rgb(227, 42, 67);
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn-next {
+  border: 3px solid rgb(227, 42, 67);
+  font-size: 17px;
+  padding: 10px 30px;
+  border-radius: 25px 5px;
+  color: rgb(227, 42, 67);
+  font-weight: 400;
+  cursor: pointer;
+}
